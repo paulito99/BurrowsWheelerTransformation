@@ -1,5 +1,5 @@
 # Direktzuweisung der Eingabe
-seq_input <- "banana"
+seq_input <- "ananas$"
 
 # Sicherstellen, dass die Sequenz mit einem eindeutigen Terminierungszeichen endet
 if (substr(seq_input, nchar(seq_input), nchar(seq_input)) != "$") {
